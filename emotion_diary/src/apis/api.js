@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://api.opaue.shop";
+const BASE_URL = "/api";
 
 const instance = axios.create({
   baseURL: BASE_URL,
